@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: monospace;
+    font-size: 17px;
+    color: #130904;
+    line-height: 1.6;
+    background-color: #3a342f;
+}
+
+/* Navbar or header */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header a:hover {
+    transform: translateY(20px);
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+
+header ul li {
+    list-style: none;
+
+}
+
+header ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    transform: translateY(15px);
+}
+
+
+
+#showcase {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: rgb(41, 14, 194);
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    color: rgb(179, 32, 51);
+}
+
+#showcase p {
+    font-size: 20px;
+    color: teal;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: aqua;
+    color: #0e0701;
+    border: #c9998a 1px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover {
+    background: #abeed2;
+    color: rgb(231, 77, 77);
+}
+
+#section-a {
+    padding: 20px;
+    background: #cedb9e;
+    color: rgb(41, 40, 40);
+    text-align: center;
+    font-family: serif;
+}
+
+#section-b {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+    font-family: cursive;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+    background: #3a342f;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#section-c .box-2 {
+    background: #f9f9f9;
+}
+
+h4,
+h5 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 40px;
+    color: #0f0f0f;
+}
